@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* SF=사파리 서버 전용 */
+body {
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* "system" font family 설정*/
+@font-face {
+    font-family: system;
+    font-style: normal;
+    font-weight: 300;
+    src: local("./font/SFNSText-Light.ttf"), local("./font/HelveticaNeueDeskInterface-Light.ttf"), local("./font/LucidaGrandeUI.ttf"), local("./font/Ubuntu-Light.ttf"), local("./font/SegoeUILight.ttf"), local("./font/Roboto-Light.ttf"), local("./font/DroidSans.ttf"), local("./font/Tahoma.ttf");
+}
+/* @font-family 적용 */
+body {
+    font-family: "system";
+}
+
+
+/* 사용자 유저의 기본 웹폰트를 적용시키고 싶을 때 사용 */
+/* 모바일에 활용 多 */
+/* 구글웹폰트같이 다운받기 귀찮다 / 각 서버마다 기본폰트 有 */
